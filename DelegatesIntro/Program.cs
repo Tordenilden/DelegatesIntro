@@ -5,6 +5,8 @@ namespace DelegatesIntro
 {
     class Program
     {
+        // Definition Delegates
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -45,6 +47,11 @@ namespace DelegatesIntro
             #endregion lambda udledes
 
 
+            #region hente data fra en colleciton old school before LINQ and with LINQ
+            #endregion
+
+            #region 
+            #endregion
             #region 
             #endregion
             #region 
@@ -52,5 +59,28 @@ namespace DelegatesIntro
             #region 
             #endregion
         }
+        #region static methods addition, subtraction, divide, multiple and multi
+        /* USE CASE
+         * 
+         */
+        #endregion
+        #region Opgavee
+        /* Vi skal nu kode en lommeregner der benytter principperne for delegate
+        * Vi kan benytte de 4 regnearter(addition, subtraction, divivde, multiple)
+        * 1) Hvordan skriver vi et regnestykke på maskinen??
+        * 2) vi kan fodre den med 2 faste tal, eller brugerindtasting.
+        * 3) Hvordan kalder vi et regnestykke på maskinen??
+        * 4) Kald nu et regnestykke med en delegate reference
+        * 5) Kald nu et regnestykke med en delegate reference
+        * 6) Du bør finde ud af...What the Fuck???
+        * 7) Opret en metode, som har følgende parametre(delegate, int, int)
+        * 8) Kald nu denne metode og se hvad der sker(kan være temmelig svært)
+        * 9) Kald metoden med alle 4 regnearter, en adgangen.
+        * 10) EKSTRA : Prøv at kalde metoden med alle 4 regnearter på en gang(multiple delegates)
+        * 11) Tror du en delegate kan være i en form for struktur, således antallet af linjer
+        * igen bliver minimeret?? JA.....
+        * 12) Prøv at benytte den nye delegate struktur, på minimum 3 forskellige måder!!
+        */
+        #endregion 
     }
 }
